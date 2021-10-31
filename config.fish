@@ -11,6 +11,7 @@ alias contexts="k config get-contexts"
 alias use="k config use-context"
 
 export LS_COLORS="$LS_COLORS:ow=1;34:tw=1;34:"
+export XDG_DATA_HOME="/data/jumpusers/$USER/.local/share"
 
 #export PATH=$PATH:$HOME/.linkerd2/bin
 #
