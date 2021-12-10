@@ -9,6 +9,9 @@ cp -R /home/av035p/ubuntu-fish-config/* /home/av035p/.config/fish/
 #
 # Copy stuff from backup.
 #
+if [ ! -d /home/av035p/.local/share/fish ]; then
+  mkdir -p /home/av035p/.local/share/fish
+fi
 cp -R /data/jumpusers/av035p/.local/share/fish/ /home/av035p/.local/share/fish/
 
 #
