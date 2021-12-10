@@ -9,6 +9,7 @@ alias kube="kubectl"
 alias tf="terraform"
 alias contexts="k config get-contexts"
 alias con="k config get-contexts"
+alias cur="k config current-context"
 alias use="k config use-context"
 alias nsp="k config set-context --current --namespace"
 
