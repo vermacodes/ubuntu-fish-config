@@ -12,13 +12,13 @@ cp -R /home/av035p/ubuntu-fish-config/* /home/av035p/.config/fish/
 #
 # Copy stuff from backup.
 #
-if [ ! -d /home/av035p/.local/share/fish ]; then
+if [ ! -d /home/av035p/.local/share ]; then
   echo "fish history directory not found; creating now."
-  mkdir -p /home/av035p/.local/share/fish
+  mkdir -p /home/av035p/.local/share
 else
   echo "fish history directory exists"
 fi
-cp -R /data/jumpusers/av035p/.local/share/fish/ /home/av035p/.local/share/fish/
+cp -R /data/jumpusers/av035p/.local/share/fish /home/av035p/.local/share/fish
 
 #
 # Setup cronjob if it doesnt exist already
