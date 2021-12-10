@@ -37,3 +37,4 @@ else
   echo "cronjob found; skipping"
 fi
 rm /home/${USER}/cron_bkp
+clear
