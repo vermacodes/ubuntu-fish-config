@@ -1,10 +1,5 @@
 #!/bin/bash
 
-#
-# Clone repository.
-#
-git clone https://github.com/vermacodes/ubuntu-fish-config.git
-
 if [ ! -d .config/fish ]; then
   mkdir -p .config/fish
 fi
