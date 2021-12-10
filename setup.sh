@@ -1,5 +1,9 @@
 #!/bin/bash
 
+rm -rf ubuntu-fish-config
+git clone https://github.com/vermacodes/ubuntu-fish-config.git
+cd ubuntu-fish-config
+
 if [ ! -d /home/av035p/.config/fish ]; then
   echo "fish config directory not found; creating now."
   mkdir -p /home/av035p/.config/fish
