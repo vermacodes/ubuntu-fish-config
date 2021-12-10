@@ -4,7 +4,7 @@ if [ ! -d /home/av035p/.config/fish ]; then
   mkdir -p /home/av035p/.config/fish
 fi
 
-cp -R /home/av035p/* /home/av035p/.config/fish/
+cp -R /home/av035p/ubuntu-fish-config/* /home/av035p/.config/fish/
 
 #
 # Copy stuff from backup.
