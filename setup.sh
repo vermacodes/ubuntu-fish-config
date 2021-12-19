@@ -11,7 +11,7 @@ else
   echo "fish config directory exists"
 fi
 
-cp -R /home/${USER}/ubuntu-fish-config/* /home/${USER}/.config/fish/
+cp -R /home/${USER}/ubuntu-fish-config/fish/config/* /home/${USER}/.config/fish/
 
 #
 # Copy stuff from backup.
@@ -38,3 +38,8 @@ else
 fi
 rm /home/${USER}/cron_bkp
 clear
+
+#
+# Setup ssh config
+#
+cp -R /home/${USER}/ubuntu-fish-config/ssh/config /home/${USER}/.ssh/
